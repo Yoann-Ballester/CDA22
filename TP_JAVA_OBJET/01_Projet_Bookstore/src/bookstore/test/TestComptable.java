@@ -1,0 +1,23 @@
+package bookstore.test;
+
+import bookstore.metier.Livre;
+
+public class TestComptable {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		Livre L1 = new Livre("Aaaaa","Bbbbb",145,14.5);
+		Livre L2 = new Livre("Ccccc","Ddddd",120,64.5);
+		Livre L3 = new Livre("Eeeee","Fffff",145,24.5);
+		
+		
+		System.out.println("Le prix total des livres est de : "+ Livre.getTotalPrix());
+		
+		System.out.println(L1.hashCode());
+		
+		System.out.println(L1.equals(L3));
+	}
+
+}

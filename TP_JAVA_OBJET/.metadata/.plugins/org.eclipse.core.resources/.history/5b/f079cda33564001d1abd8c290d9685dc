@@ -1,0 +1,22 @@
+package bookstore.metier;
+
+
+
+
+public class Comptable {
+	
+	private String somme = "0";
+	
+	void comptabilise(Livre unLivre) {
+		
+		somme = somme + unLivre.getPrix();
+		
+	}
+	
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

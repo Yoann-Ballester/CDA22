@@ -1,0 +1,20 @@
+package bookstore.metier;
+
+
+
+
+public class Comptable {
+	
+	
+	
+	void comptabilise(Livre unLivre) {
+		
+	}
+	
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

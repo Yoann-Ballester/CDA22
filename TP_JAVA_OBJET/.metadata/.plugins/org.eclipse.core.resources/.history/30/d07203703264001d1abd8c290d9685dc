@@ -1,0 +1,22 @@
+package bookstore.metier;
+
+import java.util.ArrayList;
+import java.util.List;
+import bookstore.metier.Livre;
+
+public class Comptable {
+	
+	
+	
+	void comptabilise(Livre unLivre) {
+		List<String> List = new ArrayList<String>();
+		List.add(PrixL);
+	}
+	
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

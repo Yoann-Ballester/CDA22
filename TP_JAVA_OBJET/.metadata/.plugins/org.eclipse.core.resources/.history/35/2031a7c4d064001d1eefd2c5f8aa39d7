@@ -1,0 +1,10 @@
+package bookstore.test;
+
+public class TestComptable {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

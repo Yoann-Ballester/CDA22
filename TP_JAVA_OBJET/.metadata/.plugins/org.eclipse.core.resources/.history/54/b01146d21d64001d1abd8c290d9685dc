@@ -1,0 +1,28 @@
+package bookstore.test;
+
+import bookstore.metier.Livre;
+
+public class TestLivre {
+
+	public static void main(String[] args) {
+		
+		
+		Livre L1 = new Livre("Uderzo", "Asterix", 100);
+		Livre L2 = new Livre("GHjghk", "Cool", 666);
+		
+		System.out.println(L1.auteur + " ,"+ L2.auteur);
+		
+		
+		L2.setNBpages(125);
+		L1.setNBpages(321);
+		System.out.println("\n"+L2.getNbPages()+ " "+ L1.getNbPages());
+		
+		System.out.println((L2.getNbPages() + L1.getNbPages()));
+		L1.afficheToi();
+
+		System.out.println(L1);
+		
+//		System.out.println(L1.getClass().getName());
+	}
+
+}
